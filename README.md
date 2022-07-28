@@ -1,3 +1,18 @@
+# Starting
+
+## Install Dependences
+run: composer install
+
+
+## Create database
+Create file "database.sqlite" in "database/" directory
+
+run: php artisan migrate --seed
+
+
+## Start server
+run: php -S localhost:8000 -t public
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
